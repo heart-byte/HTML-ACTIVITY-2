@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMCC-CCIS Week 2025</title>
+
+    <!-- Connect CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>SMCC-CCIS Week 2025 – Campus Event Showcase 🎓🎉</h1>
+        <p>Celebrating innovation, technology, and collaboration across the campus.</p>
+    </header>
+
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="#overview">Overview</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#location">Location</a>
+        <a href="#registration">Registration</a>
+        <a href="#faq">FAQ</a>
+        <a href="#tech-demo">Tech Demo</a>
+    </nav>
+
+
+    <!-- OVERVIEW -->
+    <section id="overview">
+        <h2>Event Overview</h2>
+
+        <img src="images/ccisweek-banner.jpg"
+             alt="SMCC-CCIS Week 2025 Banner">
+
+        <p>
+            SMCC-CCIS Week 2025 is a campus event celebrating
+            innovation, technology, and collaboration.
+        </p>
+    </section>
+
+
+    <!-- SCHEDULE -->
+    <section id="schedule">
+        <h2>📅 Event Schedule</h2>
+
+        <ul>
+            <li>Day 1 – Opening Program and Keynote Talks</li>
+            <li>Day 2 – Coding Hackathon</li>
+            <li>Day 3 – Robotics and IoT Exhibition</li>
+            <li>Day 4 – Cybersecurity Awareness Session</li>
+            <li>Day 5 – Project Showcase and Awarding Ceremony 🏆</li>
+        </ul>
+    </section>
+
+
+    <!-- LOCATION -->
+    <section id="location">
+        <h2>📍 Event Location</h2>
+
+        <p>SMCC Campus – Event Venue</p>
+
+        <iframe
+            src="https://www.google.com/maps?q=SMCC&output=embed"
+            allowfullscreen>
+        </iframe>
+    </section>
+
+
+    <!-- REGISTRATION -->
+    <section id="registration">
+        <h2>📝 Event Registration Form</h2>
+
+        <form id="registration-form">
+
+            <label for="fullname">Full Name:</label>
+            <input
+                type="text"
+                id="fullname"
+                name="fullname"
+                required
+                minlength="3"
+            >
+
+            <label for="email">Email Address:</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                required
+            >
+
+            <label for="student-id">Student ID:</label>
+            <input
+                type="text"
+                id="student-id"
+                name="student-id"
+                required
+                pattern="[0-9]{6,12}"
+            >
+
+            <label for="year-level">Year Level:</label>
+            <select
+                id="year-level"
+                name="year-level"
+                required
+            >
+                <option value="">Select Year Level</option>
+                <option value="1st Year">1st Year</option>
+                <option value="2nd Year">2nd Year</option>
+                <option value="3rd Year">3rd Year</option>
+                <option value="4th Year">4th Year</option>
+            </select>
+
+            <label>Event to Join:</label>
+
+            <div class="checkbox">
+                <input
+                    type="checkbox"
+                    name="event"
+                    value="Coding Hackathon"
+                >
+                Coding Hackathon
+            </div>
+
+            <div class="checkbox">
+                <input
+                    type="checkbox"
+                    name="event"
+                    value="Tech Quiz Bowl"
+                >
+                Tech Quiz Bowl
+            </div>
+
+            <div class="checkbox">
+                <input
+                    type="checkbox"
+                    name="event"
+                    value="Project Showcase"
+                >
+                Project Showcase
+            </div>
+
+            <label for="message">Reason for Joining:</label>
+            <textarea
+                id="message"
+                name="message"
+                rows="4"
+                required
+            ></textarea>
+
+            <button type="submit">Submit Registration</button>
+            <button type="reset">Clear Form</button>
+
+        </form>
+    </section>
+
+
+    <!-- FAQ -->
+    <section id="faq">
+        <h2>❓ FAQ</h2>
+
+        <h3>Who can join?</h3>
+        <p>Students and faculty members can join the event.</p>
+
+        <h3>Is registration free?</h3>
+        <p>Yes, registration is free.</p>
+    </section>
+
+
+    <!-- TECH DEMO -->
+    <section id="tech-demo">
+        <h2>💻 Tech Demo</h2>
+
+        <p>
+            Students will showcase their technology projects
+            and innovations.
+        </p>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 SMCC-CCIS Week 🎓🎉</p>
+    </footer>
+
+</body>
+</html>
