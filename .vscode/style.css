@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+
+/* HEADER */
+header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+
+/* NAVIGATION */
+nav {
+    background-color: #0066cc;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+
+/* SECTIONS */
+section {
+    background-color: white;
+    width: 85%;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ccc;
+}
+
+h2 {
+    color: #003366;
+}
+
+
+/* OVERVIEW IMAGE */
+#overview img {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: 15px auto;
+    border-radius: 8px;
+}
+
+
+/* SCHEDULE */
+#schedule ul {
+    padding-left: 20px;
+}
+
+#schedule li {
+    background-color: #e6f2ff;
+    margin: 8px 0;
+    padding: 10px;
+    border-left: 4px solid #0066cc;
+}
+
+
+/* LOCATION */
+iframe {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: 350px;
+    border: 0;
+    margin-top: 15px;
+}
+
+
+/* REGISTRATION FORM */
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #003366;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.checkbox {
+    margin: 10px 0;
+}
+
+
+/* BUTTONS */
+button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 15px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003366;
+}
+
+
+/* TECH DEMO */
+#tech-demo {
+    text-align: center;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
+/* MOBILE */
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px;
+    }
+
+    section {
+        width: 95%;
+        padding: 18px;
+    }
+}
